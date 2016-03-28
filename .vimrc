@@ -8,4 +8,5 @@ execute pathogen#infect()
 
 " for git, add spell checking and automatic wrapping at 72 columns
 autocmd Filetype gitcommit setlocal spell textwidth=72
-
+autocmd FileType vue set filetype=html smartindent
+set runtimepath^=~/.vim/bundle/ag
